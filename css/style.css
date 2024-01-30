@@ -1,14 +1,15 @@
 .column {
-    float: left;
-    width: 40%;
-    padding-right: 20%;
-
-  }
-
-  .column2 {
     float: right;
     width: 50%;
+    text-align: center;
+
   }
+
+  .column3 {
+    float:inline-start;
+    width: 33.3%;
+  }
+
   .row:after {
     content: "";
     display: table;
@@ -19,6 +20,17 @@
 body {
     background: rgba(182, 52, 197, 0.661);
 
+}
 
+.button {
+    background-color: white;
+    border: none;
+    color: black;
+    border-radius: 20px;
+    padding: 20px 500px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    text-shadow: none;
 }
 
