@@ -8,24 +8,23 @@
 
 
 h1 {
-  font-size: 150px;
-  color: rgb(172, 0, 166);
+  font-size: 145px;
+  color: rgb(151, 0, 146);
   text-align: center;
   outline: 2px;
   text-shadow: 1.5px 2.5px 2.5px black;
-  -webkit-text-stroke: 0.5px rgb(252, 209, 17);
+  -webkit-text-stroke: 0.5px rgb(255, 214, 9);
   margin: 0;
-  background-image: linear-gradient(to bottom, rgb(255, 192, 242), purple);
+  background-image: linear-gradient(to bottom, rgb(221, 166, 183), rgb(165, 49, 165));
 
 }
 
 
-
 body {
     font-family: bratzfont;
-    background-image: url("../media/images/background.jpeg")
+    background-image: url("../media/images/pink\ background.jpeg");
+    background-size: 500px;
     
-
 }
 
 .menu ul{
@@ -54,8 +53,12 @@ body {
   background-color: lightpink;
 
 }
-body {
-  font-family: bratzfont;
-  background-image: url("../media/images/background.jpeg")
+
+
+.container {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 5px;
 
 }
