@@ -21,10 +21,10 @@ h1 {
 
 
 body {
-    font-family: bratzfont;
-    background-image: url("../media/images/pink\ background.jpeg");
-    background-size: 500px;
-    
+  font-family: bratzfont;
+  background-image: url("../media/images/background.jpeg")
+  
+
 }
 
 .menu ul{
@@ -61,4 +61,11 @@ body {
   grid-template-columns: 1fr 1fr;
   column-gap: 5px;
 
+}
+
+h3 {
+  font-family: Protest Riot;
+  background-color: azure;
+  border-radius: 15px;
+  width: 50%;
 }

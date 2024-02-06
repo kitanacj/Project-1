@@ -54,30 +54,21 @@
     background-color: lightpink;
   
   }
-  body {
-    font-family: bratzfont;
-    background-image: url("../media/images/background.jpeg")
   
-  }
   
-  .section1 {
+  .container {
     display: grid;
     align-items: center;
     grid-template-columns: 1fr 1fr;
-    column-gap: 5px;
     text-shadow: white;
   }
+
+h2 {
+  font-family: Protest Riot;
+  background-color: azure;
   
-  .welcome {
+}
   
-    font-family: "Protest Riot", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 15px;
-    padding: 1px 1px;
-    text-align: center;
-    border-radius: 40px;
-    background-color: azure;
-  }
+
   
   
