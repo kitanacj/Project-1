@@ -1,15 +1,42 @@
+@font-face {
+  font-family:bratzfont;
+  src: url("../media/fonts/font1.ttf");
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
+
+h1 {
+  font-size: 150px;
+  color: rgb(172, 0, 166);
+  text-align: center;
+  outline: 2px;
+  text-shadow: 1.5px 2.5px 2.5px black;
+  -webkit-text-stroke: 0.5px rgb(252, 209, 17);
+  margin: 0;
+  background-image: linear-gradient(to bottom, rgb(255, 192, 242), purple);
+
+}
+
+
 
 body {
-    background-image: linear-gradient(to bottom right, pink, purple);
+    font-family: bratzfont;
+    background-image: url("../media/images/background.jpeg")
+    
 
 }
 
 .menu ul{
+  width: 100%;
   list-style-type: none;
-  margin: 0;
-  padding: 0;
   background-color: azure;
   overflow: hidden;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+ 
 }
 
 .menu li{
@@ -17,15 +44,18 @@ body {
 }
 
 .menu li a {
-  display: block;
-  
-  text-align: center;
+  display: inline-block;
   text-decoration: none;
   padding: 14px 16px;
 
 }
 
 .menu li a:hover{
-  background-color: darkgrey;
+  background-color: lightpink;
+
+}
+body {
+  font-family: bratzfont;
+  background-image: url("../media/images/background.jpeg")
 
 }
