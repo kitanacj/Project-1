@@ -1,0 +1,31 @@
+
+body {
+    background-image: linear-gradient(to bottom right, pink, purple);
+
+}
+
+.menu ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: azure;
+  overflow: hidden;
+}
+
+.menu li{
+  float: left;
+}
+
+.menu li a {
+  display: block;
+  
+  text-align: center;
+  text-decoration: none;
+  padding: 14px 16px;
+
+}
+
+.menu li a:hover{
+  background-color: darkgrey;
+
+}
